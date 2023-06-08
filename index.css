@@ -1,0 +1,143 @@
+/* {
+    border: solid 1px red;
+}*/
+
+html {
+    margin: 100px auto;
+    width: 575px;
+    height: 385px;
+}
+
+body {
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 578px;
+    height: 385px;
+    background: #000;
+    border: 5px solid #ffde57;
+    border-radius: 5px;
+}
+
+    /* board-title-home */
+
+#titleHome {
+    margin-top: 68px;
+    width: 149px;
+    height: 36px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;  
+}
+
+#titleGuest {
+    margin-top: 68px;
+    width: 149px;
+    height: 36px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+    /* score-container */
+
+.scoreContainerHome {
+    margin-top: 21px;
+    width: 155px;
+    height: 120px;
+ 
+    background: black;
+    border-radius: 5px;
+}
+
+.scoreContainerGuest {
+    margin-top: 21px;
+    width: 155px;
+    height: 120px;
+
+    background: black;
+    border-radius: 5px;
+}
+
+    /* score-text */
+
+.scoreHome {
+    width: 155px;
+    height: 120px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.scoreGuest {
+    width: 155px;
+    height: 120px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+
+    /* add-points-btns-home */
+    
+.plusBtnHome {
+    margin-top: 26px;
+    width: 155px;
+    height: 45px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.PlusBtnGuest {
+    margin-top: 26px;
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#resetBtn {
+    margin-top: 170px;
+    width: 100px;
+    background-color: #F94F6D;
+}
+
+button {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid 1px #EEEEEE;
+    color: #EEEEEE;
+    height: 45px;
+    width: 45px;
+    background: #1B244A;
+    box-shadow: 0 0 4px #EEEEEE;
+}
