@@ -19,14 +19,14 @@ body {
     position: relative;
     width: 578px;
     height: 385px;
-    background: #000;
-    border: 5px solid #ffde57;
+    background: #1920e7;
+    border: 5px solid #F94F6D;
     border-radius: 5px;
 }
 
     /* board-title-home */
 
-#titleHome {
+#titleHome, #titleGuest {
     margin-top: 68px;
     width: 149px;
     height: 36px;
@@ -40,43 +40,20 @@ body {
     color: #EEEEEE;  
 }
 
-#titleGuest {
-    margin-top: 68px;
-    width: 149px;
-    height: 36px;
-
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 36px;
-    text-align: center;
-    color: #EEEEEE;
-}
-
     /* score-container */
 
-.scoreContainerHome {
-    margin-top: 21px;
-    width: 155px;
-    height: 120px;
- 
-    background: black;
-    border-radius: 5px;
-}
-
-.scoreContainerGuest {
+.scoreContainerHome, .scoreContainerGuest{
     margin-top: 21px;
     width: 155px;
     height: 120px;
 
-    background: black;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
     /* score-text */
 
-.scoreHome {
+#scoreHome, #scoreGuest {
     width: 155px;
     height: 120px;
 
@@ -88,24 +65,10 @@ body {
     text-align: center;
     color: #F94F6D;
 }
-
-.scoreGuest {
-    width: 155px;
-    height: 120px;
-
-    font-family: 'Cursed Timer ULiL';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 90px;
-    line-height: 127px;
-    text-align: center;
-    color: #F94F6D;
-}
-
 
     /* add-points-btns-home */
     
-.plusBtnHome {
+.plusBtnHome, .PlusBtnGuest{
     margin-top: 26px;
     width: 155px;
     height: 45px;
@@ -115,14 +78,8 @@ body {
 }
 
 .PlusBtnGuest {
-    margin-top: 26px;
-    width: 155px;
-    height: 45px;
     left: 337px;
     top: 271px;
-    
-    display: flex;
-    justify-content: space-around;
 }
 
 #resetBtn {

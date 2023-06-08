@@ -1,5 +1,5 @@
-let scoreHome = document.getElementById("homeScore")
-let scoreGuest = document.getElementById("guestScore")
+let scoreHome = document.getElementById("scoreHome")
+let scoreGuest = document.getElementById("scoreGuest")
 let countHome = 0
 let countGuest = 0
 
